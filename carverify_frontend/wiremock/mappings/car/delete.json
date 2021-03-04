@@ -1,0 +1,16 @@
+{
+  "request": { "url": "/api/car/1", "method": "DELETE" },
+  "response": {
+    "status": 204,
+    "fixedDelayMilliseconds": 2000,
+    "headers": {
+      "X-Powered-By": "Servlet/3.0",
+      "correlation-id": "1497124424607",
+      "Access-Control-Allow-Origin": "*",
+      "Keep-Alive": "timeout=10, max=100",
+      "Connection": "Keep-Alive",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/json;charset=UTF-8"
+    }
+  }
+}

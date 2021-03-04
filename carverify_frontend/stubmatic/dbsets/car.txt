@@ -1,0 +1,9 @@
+Id | CarPlaque | Brand      | Model  | YearBrand | YearModel | Id_People
+1  | FRT-1236  | Chevrolet  | Agile  | 2014      | 2014      | 1
+2  | GTY-2581  | Honda      | Civic  | 2019      | 2020      | 1
+3  | FIY-2697  | Fiat       | Uno    | 2016      | 2017      | 2
+4  | QRE-9578  | Chevrolet  | Corsa  | 2015      | 2015      | 3
+5  | HRE-3178  | Volkswagen | Gol    | 1999      | 1999      | 4
+6  | ADH-9177  | Fiat       | Palio  | 2013      | 2014      | 4
+7  | VJY-4586  | Honda      | Fit    | 2019      | 2019      | 3
+8  | ASE-5748  | Chevrolet  | S10    | 2006      | 2007      | 1

@@ -1,0 +1,150 @@
+# GET /api/Car/{id:number}
+- request:
+    method: GET
+    url: /api/[cC]ar/([0-9]+)
+  dbset:
+    db: car.txt
+    key: <% url.1 %>
+  response:
+    status: 200
+    latency: 100
+    file: 'car.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+# GET /api/Car/{id:string}
+- request:
+    method: GET
+    url: /api/[cC]ar/([a-zA-Z]+)
+  response:
+    status: 400
+    latency: 300
+    body: >
+      <h3>Car Id "<% url.1 %>" must be number</h3>
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'text/html'
+
+# GET /api/Car
+- request:
+    method: GET
+    url: /api/[cC]ar/?
+  response:
+    status: 200
+    latency: 500
+    file: 'cars.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-method: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+# POST /api/Car
+- request:
+    method: POST
+    url: /api/[cC]ar/?
+  dbset:
+    strategy: random
+    db: car.txt
+  response:
+    status: 201
+    latency: 100
+    file: 'car.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-method: 'POST'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+# PUT /api/Car/{id}
+- request:
+    method: PUT
+    url: /api/[cC]ar/([0-9]+)
+  dbset:
+    db: car.txt
+    key: <% url.1 %>
+  response:
+    status: 200
+    latency: 300
+    file: 'car.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'PUT'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+# DELETE /api/Car/0
+- request:
+    method: DELETE
+    url: /api/[cC]ar/0
+  response:
+    status: 404
+    latency: 300
+    body: >
+      <h3>Car Id "<% url.1 %>" Not Found</h3>
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'DELETE'
+      access-control-allow-headers: 'content-type'
+      content-type: 'text/html'
+
+# DELETE /api/Car/{id}
+- request:
+    method: DELETE
+    url: /api/[cC]ar/([0-9]+)
+  response:
+    status: 200
+    latency: 100
+    body: '{}'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'DELETE'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+#----------------------------------------------------------------------------
+# /api/Car/people
+
+- request:
+    method: GET
+    url: /api/[cC]ar/people/1
+  response:
+    status: 200
+    latency: 400
+    file: 'peopleWithThreeCar.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+- request:
+    method: GET
+    url: /api/[cC]ar/people/2
+  response:
+    status: 200
+    latency: 300
+    file: 'peopleWithOneCar.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+- request:
+    method: GET
+    url: /api/[cC]ar/people/([0-9]+)
+  response:
+    status: 200
+    latency: 300
+    file: 'peopleWithoutCar.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'

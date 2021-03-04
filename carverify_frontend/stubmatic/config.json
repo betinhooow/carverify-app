@@ -1,0 +1,27 @@
+{
+  "mappings": {
+    "default": {
+      "request": {
+        "method": "GET"
+      },
+      "response": {
+        "strategy": "first-found",
+        "latency": 0,
+        "status": 200
+      }
+    },
+    "requests": [
+      "stubmatic/mappings/people.yaml",
+      "stubmatic/mappings/car.yaml"
+    ]
+  },
+  "server": {
+    "port": 7777,
+    "host": "0.0.0.0"
+  },
+  "dbsets": "stubmatic/dbsets/",
+  "stubs": "stubmatic/stubs/",
+  "logs": {
+    "path": "stubmatic/logs/"
+  }
+}

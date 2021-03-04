@@ -1,0 +1,16 @@
+{
+  "request": { "url": "/api/car", "method": "GET" },
+  "response": {
+    "status": 200,
+    "bodyFileName": "car/all.json",
+    "fixedDelayMilliseconds": 2000,
+    "headers": {
+      "correlation-id": "1497124424607",
+      "Access-Control-Allow-Origin": "*",
+      "Keep-Alive": "timeout=10, max=100",
+      "Connection": "Keep-Alive",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/json;charset=UTF-8"
+    }
+  }
+}

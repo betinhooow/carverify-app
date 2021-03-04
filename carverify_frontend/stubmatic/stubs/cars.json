@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "carPlaque": "FRT-1236",
+    "brand": "Chevrolet",
+    "model": "Agile",
+    "yearBrand": "2014",
+    "yearModel": "2014",
+    "id_People": "1"
+  },
+  {
+    "id": "2",
+    "carPlaque": "GTY-2581",
+    "brand": "Honda",
+    "model": "Civic",
+    "yearBrand": "2019",
+    "yearModel": "2020",
+    "id_People": "1"
+  },
+  {
+    "id": "3",
+    "carPlaque": "FIY-2697",
+    "brand": "Fiat",
+    "model": "Uno",
+    "yearBrand": "2016",
+    "yearModel": "2017",
+    "id_People": "2"
+  },
+  {
+    "id": "4",
+    "carPlaque": "QRE-9578",
+    "brand": "Chevrolet",
+    "model": "Corsa",
+    "yearBrand": "2015",
+    "yearModel": "2015",
+    "id_People": "3"
+  },
+  {
+    "id": "5",
+    "carPlaque": "HRE-3178",
+    "brand": "Volkswagen",
+    "model": "Gol",
+    "yearBrand": "1999",
+    "yearModel": "1999",
+    "id_People": "4"
+  },
+  {
+    "id": "6",
+    "carPlaque": "ADH-9177",
+    "brand": "Fiat",
+    "model": "Palio",
+    "yearBrand": "2013",
+    "yearModel": "2014",
+    "id_People": "4"
+  },
+  {
+    "id": "7",
+    "carPlaque": "VJY-4586",
+    "brand": "Honda",
+    "model": "Fit",
+    "yearBrand": "2019",
+    "yearModel": "2019",
+    "id_People": "3"
+  },
+  {
+    "id": "8",
+    "carPlaque": "ASE-5748",
+    "brand": "Chevrolet",
+    "model": "S10",
+    "yearBrand": "2006",
+    "yearModel": "2007",
+    "id_People": "1"
+  }
+]

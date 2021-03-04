@@ -1,0 +1,38 @@
+- request:
+    method: GET
+    url: /api/People/1
+  response:
+    status: 200
+    latency: 400
+    file: 'peopleWithThreeCar.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+- request:
+    method: GET
+    url: /api/People/2
+  response:
+    status: 200
+    latency: 300
+    file: 'peopleWithOneCar.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'
+
+- request:
+    method: GET
+    url: /api/People/([0-9]+)
+  response:
+    status: 200
+    latency: 300
+    file: 'peopleWithoutCar.json'
+    headers:
+      access-control-allow-origin: '*'
+      access-control-allow-methods: 'GET'
+      access-control-allow-headers: 'content-type'
+      content-type: 'application/json'

@@ -1,0 +1,34 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "carPlaque": "FRT-1236",
+      "brand": "Chevrolet",
+      "model": "Agile",
+      "yearBrand": "2014",
+      "yearModel": "2014",
+      "id_People": "1",
+      "carCaster": "Este veículo não pode circular de quarta-feira"
+    },
+    {
+      "id": "2",
+      "carPlaque": "GTY-2581",
+      "brand": "Honda",
+      "model": "Civic",
+      "yearBrand": "2019",
+      "yearModel": "2020",
+      "id_People": "1",
+      "carCaster": "Este veículo não pode circular de segunda-feira"
+    },
+    {
+      "id": "8",
+      "carPlaque": "ASE-5748",
+      "brand": "Chevrolet",
+      "model": "S10",
+      "yearBrand": "2006",
+      "yearModel": "2007",
+      "id_People": "1",
+      "carCaster": "Este veículo não pode circular de quinta-feira"
+    }
+  ]
+}

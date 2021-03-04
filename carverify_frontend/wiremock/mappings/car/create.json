@@ -1,0 +1,27 @@
+{
+  "request": {
+    "url": "/api/car",
+    "method": "POST",
+    "bodyPatterns": [
+      { "matchesJsonPath": "@.carPlaque"},
+      { "matchesJsonPath": "@.brand"},
+      { "matchesJsonPath": "@.model"},
+      { "matchesJsonPath": "@.yearBrand"},
+      { "matchesJsonPath": "@.yearModel"},
+      { "matchesJsonPath": "@.id_People"}
+     ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "car/create.json",
+    "fixedDelayMilliseconds": 2000,
+    "headers": {
+      "correlation-id": "1497124424607",
+      "Access-Control-Allow-Origin": "*",
+      "Keep-Alive": "timeout=10, max=100",
+      "Connection": "Keep-Alive",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/json;charset=UTF-8"
+    }
+  }
+}

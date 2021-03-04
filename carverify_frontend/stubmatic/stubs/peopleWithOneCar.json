@@ -1,0 +1,21 @@
+{
+    "id": 2,
+    "name": "Maria",
+    "age": "27",
+    "address": "Rua Xpto",
+    "nmHouse": "19",
+    "neighborhood": "Parque Villa Flores",
+    "city": "Sumaré",
+  "car": [
+    {
+      "id": "3",
+      "carPlaque": "FIY-2697",
+      "brand": "Fiat",
+      "model": "Uno",
+      "yearBrand": "2016",
+      "yearModel": "2017",
+      "id_People": "2",
+      "carCaster": "Este veículo não pode circular de quinta-feira"
+    }
+  ]
+}

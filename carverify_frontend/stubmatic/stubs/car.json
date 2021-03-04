@@ -1,0 +1,9 @@
+{
+  "id": "##Id##",
+  "carPlaque": "##CarPlaque##",
+  "brand": "##Brand##",
+  "model": "##Model##",
+  "yearBrand": "##YearBrand##",
+  "yearModel": "##YearModel##",
+  "id_People": "<% url.1 %>"
+}

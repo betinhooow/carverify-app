@@ -1,0 +1,10 @@
+{
+    "id": "<% url.1 %>",
+    "name": "Bruno",
+    "age": "33",
+    "address": "Rua 12",
+    "nmHouse": "9",
+    "neighborhood": "Parque das Colinas",
+    "city": "Americana",
+  "car": []
+}
